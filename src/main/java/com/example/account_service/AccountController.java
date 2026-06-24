@@ -21,6 +21,7 @@ public class AccountController {
 
     @PostMapping("/createAccount")
     public ResponseEntity<String> createAccount(@RequestBody Account account){
+        System.out.println("Controller Hit");
         accountService.createAccount( account) ;
         return ResponseEntity.status(HttpStatus.CREATED).body("Account is created succesfully");
 

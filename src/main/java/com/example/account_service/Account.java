@@ -20,8 +20,6 @@ import java.util.Date;
 public class Account {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
     private String  account_number;
     private String accountHoldername;
     private Date createdDate;
