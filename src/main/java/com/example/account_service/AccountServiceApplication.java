@@ -10,7 +10,7 @@ public class AccountServiceApplication {
 
         SpringApplication.run(AccountServiceApplication.class, args);
 
-        System.out.println("server is running....");
+        System.out.println("server is running.....");
     }
 
 }
